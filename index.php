@@ -1,8 +1,7 @@
 <?php
-
-    require "init.php";
-    $basicInfo = $coin->GetBasicProfile();
-    $username = $basicInfo['result']['public_name'];
+    // require "init.php";
+    // $basicInfo = $coin->GetBasicProfile();
+    // $username = $basicInfo['result']['public_name'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -40,7 +39,7 @@
             <div class="col-md-6 offset-md-3" style="margin:auto; background: white; padding: 20px; box-shadow: 10px 10px 5px #888;">
                 <div class="panel-heading">
                     <h1>Pay with cryptocurrency</h1>
-                    <p style="font-style: italic;">to <strong><?php echo $username; ?></strong></p>
+                    <p style="font-style: italic;">to <strong><?php// echo $username; ?></strong></p>
                 </div>
                 <hr>
                 <form action="process.php" method="post" autocomplete="off">

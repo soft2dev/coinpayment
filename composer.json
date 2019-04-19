@@ -1,6 +1,5 @@
 {
     "require": {
-        "php":">=7.13",
         "illuminate/database": "^5.8"
     }
 }
